@@ -1,0 +1,24 @@
+{
+    "name": "juliao96/ecommerce",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Meu projeto",
+    "homepage": "https://github.com/Juliao96/ecommerce",
+    "authors": [
+        {
+            "name": "Juliao Gime",
+            "email": "juliaogimi@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer":"5.2.22",
+        "slim/slim":"2.0",
+        "php": ">=7.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\juliao\\php-classes\\src"
+        }
+    }
+}
