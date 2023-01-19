@@ -1,16 +1,23 @@
 <?php
 
 require_once("vendor/autoload.php");
-$app = new \Slim\Slim();
+
+use \Slim\Slim;
+use \Juliao\Page;
+
+$app = new Slim();
 
 //Este ponto vai permitir mostrar os erros. Ele vai mostrar no console.
 $app->config('debug', true);
 
 $app->get('/', function(){
-    $sql = new Juliao\DB\Sql();
-    $results = $sql->select("SELECT * FROM tb_users");
-    echo json_encode($results);
+    //$sql = new Juliao\DB\Sql();
+
+    $page = new Page();
+
+    $page->setTpl("index");
+
 });
 
 $app->run();
-
+?>
