@@ -3,7 +3,7 @@
         'name' => 'juliao96/ecommerce',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '06246cd8f02c52232af96c2ac4644195631734c2',
+        'reference' => '3b97ec2a9cfa47d5197d88d4f70e884ec4dff629',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'juliao96/ecommerce' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '06246cd8f02c52232af96c2ac4644195631734c2',
+            'reference' => '3b97ec2a9cfa47d5197d88d4f70e884ec4dff629',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
